@@ -1,0 +1,24 @@
+{
+  "name": "simple-validator",
+  "version": "1.0.0",
+  "description": "simple validator wiht custom startegies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hubu/simple-validator.git"
+  },
+  "keywords": [
+    "react",
+    "validator",
+    "simple-validator"
+  ],
+  "author": "Hubu",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Hubu/simple-validator/issues"
+  },
+  "homepage": "https://github.com/Hubu/simple-validator#readme"
+}
