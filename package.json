@@ -4,7 +4,7 @@
   "description": "simple validator wiht custom startegies",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Hubu/simple-validator/issues"
   },
-  "homepage": "https://github.com/Hubu/simple-validator#readme"
+  "homepage": "https://github.com/Hubu/simple-validator#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
 }
