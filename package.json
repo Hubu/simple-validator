@@ -1,5 +1,5 @@
 {
-  "name": "simple-validator",
+  "name": "simple-custom-validator",
   "version": "1.0.0",
   "description": "simple validator wiht custom startegies",
   "main": "index.js",
