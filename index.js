@@ -1,6 +1,8 @@
 var  strategies = require('./strategies')
 
 function Validator (rules, options) {
+  rules = rules || []
+  options = options || {}
   this.validate = function () {return true}
   this.initValidator(rules, options)
 }
@@ -10,7 +12,7 @@ Validator.prototype.initValidator = function(rules, options) {
   var splitor = options.splitor || '::'
   var matchedStrategies = []
 
-  if (_.isArray(rules)) {
+  if ('[object Array]' === Object.prototype.toString.call(rules)) {
     rules.map(function (rule) {
       matchedStrategies.push(function (value, data) {
         var strategyArg = rule.split(splitor)
@@ -25,7 +27,7 @@ Validator.prototype.initValidator = function(rules, options) {
         return strategies[strategy] ? strategies[strategy].apply(self, strategyArg) : true
       })
     })
-  } else if (_.isFunction(rules)){
+  } else if ('[object Function]' === Object.prototype.toString.call(rules)){
     matchedStrategies.push(rules)
   } else {
     return 
