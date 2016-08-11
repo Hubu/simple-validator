@@ -1,5 +1,5 @@
 # simple-custom-validator
-[![Build Status](https://travis-ci.org/Hubu/simple-validator.svg?branch=master)](https://travis-ci.org/Hubu/simple-validator) [![Dependency Status](https://gemnasium.com/badges/github.com/Hubu/simple-validator.svg)](https://gemnasium.com/github.com/Hubu/simple-validator) [![Coverage Status](https://coveralls.io/repos/github/Hubu/simple-dataSource/badge.svg?branch=master)](https://coveralls.io/github/Hubu/simple-dataSource?branch=master)
+[![Build Status](https://travis-ci.org/Hubu/simple-validator.svg?branch=master)](https://travis-ci.org/Hubu/simple-validator) [![Dependency Status](https://gemnasium.com/badges/github.com/Hubu/simple-validator.svg)](https://gemnasium.com/github.com/Hubu/simple-validator)
 
 
 Simple validator with custom strategies
@@ -21,7 +21,7 @@ this is not a complete validator lib/component, it can be used to make up your c
  ```
 
 ## strategies
- * [built-in strategies](https://github.com/Hubu/simple-validator/blob/master/strategies.js#L10)
+ * [built-in strategies](https://github.com/Hubu/simple-validator/blob/master/strategies.js#L10-L47)
  * custom strategy
 
  ```javascript
