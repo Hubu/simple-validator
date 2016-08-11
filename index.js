@@ -36,7 +36,7 @@ Validator.prototype.initValidator = function(rules) {
   } else if (isFunction(rules)){
     matchedStrategies.push(rules)
   } else {
-    return 
+    return
   }
 
   return this.validate = function (value, data) {
