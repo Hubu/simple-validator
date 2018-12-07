@@ -4,12 +4,12 @@
 
 Simple validator with custom strategies
 
-## what?
+## what
 this is not a complete validator lib/component, it can be used to make up your custom completely Validator
 ## how
- * install  
+### install  
  `npm i simple-custom-validator --save`
- * usage
+### usage
 
  ```javascript
  var Validator = require('simple-custom-validator')
